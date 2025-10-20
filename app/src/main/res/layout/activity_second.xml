@@ -4,19 +4,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/white">
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/icon_company" />
 
   <TextView
       android:id="@+id/textView"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Вы находитесь на экране 2" />
+      android:text="You are on SecondActivity"
+      android:textSize="20sp"/>
 
   <Button
       android:id="@+id/buttonBack"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Назад"
+      android:text="Go to MainActivity"
       android:layout_marginTop="20dp" />
+
 
 </LinearLayout>
